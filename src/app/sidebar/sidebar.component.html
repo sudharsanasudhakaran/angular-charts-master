@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Collapsible sidebar using Bootstrap 4</title>
+
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Sudharsh</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li>
+                    <a routerLink ="/bubblechart">Bubble chart</a>
+                </li>
+                <li>
+                    <a routerLink ="/pointchart">Line Chart</a>
+                </li>
+                <li>
+                    <a routerLink ="/barchart">Bar Chart</a>
+                </li>
+                <li>
+                    <a routerLink ="/timechart">Doughnut Chart</a>
+                </li>
+                <li>
+                    <a routerLink ="/scalechart">Radar Chart</a>
+                </li>
+                <li>
+                    <a routerLink ="/toolchart">Pie Chart</a>
+                </li>
+                <li>
+                    <a routerLink ="/scriptchart">Dynamic Chart</a>
+                </li>
+                <li>
+                    <a routerLink ="/areachart">Scatter Chart</a>
+                </li>
+                <li>
+                    <a routerLink = "/logchart">Polar area Chart</a>
+                </li>    
+            </ul>
+
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+    
+</body>
+
+</html>
